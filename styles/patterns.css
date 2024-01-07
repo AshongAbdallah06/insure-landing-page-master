@@ -1,0 +1,27 @@
+.intro-left-pattern {
+    position: absolute;
+    top: 18.75rem;
+    max-width: 8.75rem;
+}
+
+.intro-right-pattern {
+    position: absolute;
+    right: 0;
+    z-index: 1;
+    max-height: 22.5rem;
+}
+
+.find-out-pattern {
+    position: absolute;
+    right: 1.25rem;
+    z-index: 0;
+    max-height: 100%;
+}
+
+.footer-pattern {
+    position: absolute;
+    z-index: -1;
+    left: -7.5rem;
+    top: -1.875rem;
+    height: 9.375rem;
+}

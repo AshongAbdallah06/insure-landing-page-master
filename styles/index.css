@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Karla:wght@400;700&display=swap');
+
+/* 
+font-family: 'DM Serif Display', serif;
+font-family: 'Karla', sans-serif;
+ */
+
+body {
+    display: flex;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    /* background-color: red; */
+    padding: 0.625rem 3.125rem;
+}
+
+.left-side {
+    display: flex;
+    align-items: center;
+}
+
+.right-side {
+    /* background-color: lightblue; */
+    display: flex;
+    justify-content: space-between;
+    width: 18.75rem;
+    align-items: center;
+    font-size: 0.625rem;
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+    color: gray;
+    /* align-items: start; */
+}
+
+.logo {
+    max-height: 30%;
+}
+
+.view-plan {
+    padding: 0.625rem 1.25rem;
+    font-size: 0.625rem;
+    font-weight: 700;
+    color: hsl(270, 9%, 17%);
+    cursor: pointer;
+    background-color: transparent;
+    border: 0.09375rem solid hsl(270, 9%, 17%);
+}
+
+.humanizing {
+    width: 27rem;
+    margin-top: 5rem;
+    margin-left: 5rem;
+}
+
+.humanize-text::before {
+    content: 'Hum';
+    border-top: 0.0625rem solid white;
+    padding-top: 1.75rem;
+    color: white;
+}
+
+.humanize-text {
+    font-size: 3rem;
+    font-weight: normal;
+    line-height: 90%;
+    margin-bottom: 1.25rem;
+}
+
+.humanize-text::after {
+    content: 'your insurance.';
+    display: block;
+}
+
+.message {
+    font-size: 0.8rem;
+    font-weight: normal;
+    font-family: 'Karla', sans-serif;
+    margin-top: 0;
+}
+
+.humanizing .view-plan {
+    padding: 0.625rem 1.25rem;
+    font-size: 0.625rem;
+    font-weight: 700;
+    color: white;
+    border: 0.0625rem solid white;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.intro {
+    background-color: hsl(256, 26%, 20%);
+    /* max-height: 50%; */
+    width: 78rem;
+    height: 28.125rem;
+    position: relative;
+    display: flex;
+    justify-content: left;
+    color: white;
+    font-family: 'DM Serif Display', serif;
+    /* align-items: center; */
+    /* flex: 1; */
+    /* display: block; */
+}
+
+.intro-image {
+    position: absolute;
+    max-width: 30%;
+    top: 5rem;
+    right: 6.25rem;
+    z-index: 2;
+    /* max-height: 100%; */
+}
+
+
+.section-two {
+    margin-top: 12.5rem;
+    padding: 3.75rem;
+    padding-top: 0;
+    /* background-color: lightblue; */
+}
+
+.different {
+    font-family: 'DM Serif Display', serif;
+    font-weight: normal;
+    font-size: 2.1875rem;
+    padding-bottom: 1.5625rem;
+}
+
+.different::before {
+    content: "We're ";
+    border-top: 1px solid rgb(197, 197, 197);
+    padding-top: 1.25rem;
+}
+
+
+.infos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+}
+
+.info-icon {
+    max-height: 30%;
+    max-width: 15%;
+} 
+
+.snappy-text,
+.people-first-text {
+    width: 18.75rem;
+}
+
+.affordable-text {
+    width: 20rem;
+}
+
+
+
+.find-out-container {
+    background-color: hsl(256, 26%, 20%);
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.875rem 2.5rem;
+    margin-top: 3.75rem;
+}
+
+.find-out {
+    color: white;
+    font-family: 'DM Serif Display', serif;
+    font-weight: normal;
+    font-size: 1.875rem;
+    line-height: 90%;
+}
+
+.how-we-work-button {
+    font-size: 0.625rem;
+    font-weight: 700;
+    color: white;
+    background-color: transparent;
+    border: 0.09375rem solid white;
+    padding: 0.625rem 1.25rem;
+    cursor: pointer;
+    z-index: 1;
+}
+
+
+.section-three {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 3.75rem;
+    margin: 0 3.75rem;
+    padding-bottom: 1.25rem;
+    border-bottom: 1px solid rgb(197, 197, 197);
+    z-index: 1;
+    /* flex-direction: column; */
+}
+
+.left-side-bottom {
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+
+.social-medias {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 6.25rem;
+}
+
+.bottom-logo {
+    max-height: 60%;    
+}
+
+.icon {
+    cursor: pointer;
+    height: 0.938rem;
+}
+
+
+footer {
+    margin: 0 3.75rem;
+    margin-top: 1.25rem;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Karla', serif;
+}
+
+.links {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.links p {
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 0.816rem;
+}
+
+.link-header {
+    display: flex;
+    color: hsl(273, 4%, 51%);
+    /* flex-direction: column; */
+    margin-bottom: 1.875rem;
+}
