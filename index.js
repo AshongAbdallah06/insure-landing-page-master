@@ -4,7 +4,6 @@ const closeButton = document.querySelector('.close');
 let menuIsToggled = false;
 
 menuButton.addEventListener('click', () => {
-    // showMobileNav();
     if (!menuIsToggled) {
         menuIsToggled = true;
         closeButton.style.opacity = '1';
@@ -13,7 +12,6 @@ menuButton.addEventListener('click', () => {
 
 
         document.querySelector('.mobile-nav').style.zIndex = '100';
-        // alert(menuIsToggled);
     }
 });
 
@@ -27,8 +25,6 @@ closeButton.addEventListener('click', () => {
 
         document.querySelector('.mobile-nav').style.zIndex = '-2';
         document.querySelector('.mobile-intro-image').style.zIndex = 1
-
-        // alert(menuIsToggled);
     }
 });
 
@@ -49,9 +45,6 @@ function checkWidth() {
         `
 
     } else {
-        // mobileImage.innerHTML = `
-        //   <img src="images/image-intro-mobile.jpg" class="image">
-        // `;
         document.querySelector('.div').innerHTML = `
         <img src="images/bg-pattern-intro-right-mobile.svg" alt="intro-right-pattern" class="mobile-right-pattern">
         <img src="images/bg-pattern-intro-left-mobile.svg" alt="intro-left-pattern" class="mobile-left-pattern">
