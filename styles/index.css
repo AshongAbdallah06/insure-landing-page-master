@@ -39,6 +39,11 @@ header {
     max-height: 30%;
 }
 
+.nav-link {
+    cursor: pointer;
+    transition: color 0.15s;
+}
+
 .view-plan {
     padding: 0.625rem 1.25rem;
     font-size: 0.625rem;
@@ -47,6 +52,7 @@ header {
     cursor: pointer;
     background-color: transparent;
     border: 0.09375rem solid hsl(270, 9%, 17%);
+    transition: background-color 0.15s;
 }
 
 .humanizing {
@@ -89,6 +95,7 @@ header {
     border: 0.0625rem solid white;
     cursor: pointer;
     background-color: transparent;
+    transition: background-color 0.15s;
 }
 
 .intro {
@@ -190,6 +197,7 @@ header {
     padding: 0.625rem 1.25rem;
     cursor: pointer;
     z-index: 1;
+    transition: background-color 0.15s;
 }
 
 
@@ -240,13 +248,15 @@ footer {
     vertical-align: top;
 }
 
-.links p {
+.link-label {
     cursor: pointer;
     font-weight: 700;
-    font-size: 0.816rem;
+    font-size: 0.75rem;
+    transition: color 0.15s;
 }
 
 .link-header {
+    font-size: 0.75rem;
     display: flex;
     color: hsl(273, 4%, 51%);
     /* flex-direction: column; */

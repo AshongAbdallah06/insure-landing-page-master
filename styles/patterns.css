@@ -13,7 +13,7 @@
 
 .find-out-pattern {
     position: absolute;
-    right: 1.25rem;
+    right: 0;
     z-index: 0;
     max-height: 100%;
 }
