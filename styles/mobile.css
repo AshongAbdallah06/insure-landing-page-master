@@ -26,6 +26,7 @@
     .mobile-nav {
         background-color: hsl(276, 7%, 27%);
         color: white;
+        width: 75.5%;
         height: 93.5%;
         display: flex;
         flex-direction: column;
@@ -87,7 +88,7 @@
     }
 
     .mobile-intro-image {
-        width: 100%;
+        width: 75.5%;
         height: 100%;
     }
 
