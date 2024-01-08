@@ -31,8 +31,6 @@ closeButton.addEventListener('click', () => {
 
 function checkWidth() {
     if (window.matchMedia('(min-width: 1000px)').matches) {
-        mobileImage.innerHTML = '';
-        rightSide.innerHTML = '';
 
         document.querySelector('.div').innerHTML = `
         <img src="images/bg-pattern-intro-right-desktop.svg" alt="intro-right-pattern" class="desktop-right-pattern">
