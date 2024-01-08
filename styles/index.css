@@ -22,7 +22,7 @@ header {
     align-items: center;
 }
 
-.right-side {
+.right-side-container {
     /* background-color: lightblue; */
     display: flex;
     justify-content: space-between;
@@ -53,6 +53,22 @@ header {
     background-color: transparent;
     border: 0.09375rem solid hsl(270, 9%, 17%);
     transition: background-color 0.15s;
+}
+
+.intro {
+    background-color: hsl(256, 26%, 20%);
+    /* max-height: 50%; */
+    /* width: 78rem; */
+    /* width: 100%; */
+    height: 28.125rem;
+    position: relative;
+    display: flex;
+    justify-content: left;
+    color: white;
+    font-family: 'DM Serif Display', serif;
+    /* align-items: center; */
+    /* flex: 1; */
+    /* display: block; */
 }
 
 .humanizing {
@@ -98,21 +114,6 @@ header {
     transition: background-color 0.15s;
 }
 
-.intro {
-    background-color: hsl(256, 26%, 20%);
-    /* max-height: 50%; */
-    width: 78rem;
-    height: 28.125rem;
-    position: relative;
-    display: flex;
-    justify-content: left;
-    color: white;
-    font-family: 'DM Serif Display', serif;
-    /* align-items: center; */
-    /* flex: 1; */
-    /* display: block; */
-}
-
 .intro-image {
     position: absolute;
     max-width: 30%;
@@ -121,7 +122,6 @@ header {
     z-index: 2;
     /* max-height: 100%; */
 }
-
 
 .section-two {
     margin-top: 12.5rem;
@@ -152,6 +152,7 @@ header {
 .info {
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 .info-icon {
@@ -159,16 +160,32 @@ header {
     max-width: 15%;
 } 
 
-.snappy-text,
-.people-first-text {
-    width: 18.75rem;
+.info-label {
+    font-family: 'DM Serif Display', serif;
+    font-weight: normal;
+}
+
+.info-text {
+    font-family: 'Karla', serif;
+    font-size: 13px;
+    vertical-align: top;
+    color: gray;
+}
+
+.snappy-text {
+    /* width: 18.75rem; */
+    width: 265px;
 }
 
 .affordable-text {
-    width: 20rem;
+    /* width: 20rem; */
+    width: 290px;
 }
 
-
+.people-first-text {
+    /* width: 18.75rem; */
+    width: 280px;
+}
 
 .find-out-container {
     background-color: hsl(256, 26%, 20%);
@@ -257,7 +274,6 @@ footer {
 
 .link-header {
     font-size: 0.75rem;
-    display: flex;
     color: hsl(273, 4%, 51%);
     /* flex-direction: column; */
     margin-bottom: 1.875rem;

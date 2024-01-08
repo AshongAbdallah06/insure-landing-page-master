@@ -1,19 +1,32 @@
-.intro-left-pattern {
+.desktop-left-pattern {
     position: absolute;
     top: 18.75rem;
+    left: 0;
     max-width: 8.75rem;
 }
 
-.intro-right-pattern {
+.desktop-right-pattern {
     position: absolute;
     right: 0;
     z-index: 1;
     max-height: 22.5rem;
 }
 
+.mobile-left-pattern {
+    position: absolute;
+    left: 0;
+}
+
+.mobile-right-pattern {
+    position: absolute;
+    right: 0;
+    top: 18.75rem;
+}
+
 .find-out-pattern {
     position: absolute;
     right: 0;
+    top: 0;
     z-index: 0;
     max-height: 100%;
 }
@@ -24,4 +37,13 @@
     left: -7.5rem;
     top: -1.875rem;
     height: 9.375rem;
+}
+
+.mobile-nav-pattern {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    max-width: 100%;
+    max-height: 100%;
+    z-index: -1;
 }

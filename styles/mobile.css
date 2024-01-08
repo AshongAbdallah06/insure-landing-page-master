@@ -1,0 +1,243 @@
+.mobile-nav {
+    background-color: hsl(276, 7%, 27%);
+    color: white;
+    height: 93.5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Karla' ,serif;
+    font-size: 18px;
+    font-weight: 700;
+    padding-top: 30px;
+    position: relative;
+    top: -454px;
+    z-index: -1;
+}
+
+.mobile-nav-link {
+    cursor: pointer;
+}
+
+.view-plan-mobile {
+    /* padding: 0.625rem 1.25rem; */
+    padding: 20px;
+    color: white;
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing: 3px;
+    /* font-size: 0.625rem; */
+    width: 90%;
+    border: 2px solid white;
+    cursor: pointer;
+    background-color: transparent;
+    transition: background-color 0.15s;
+}
+
+.view-plan-mobile:hover {
+    background-color: white;
+    color: hsl(270, 9%, 17%);
+}
+
+
+
+@media (max-width: 1000px) {
+    body {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-left: 100px;
+    }
+
+    header {
+        width: 65%;
+        padding: 20px;
+    }
+
+    .logo {
+        max-height: 40%;
+    }
+
+    .right-side-container {
+        display: none;
+    }
+
+    .right-side {
+        position: relative;
+    }
+
+    .menu {
+        cursor: pointer;
+    }
+
+    .close {
+        opacity: 0;
+        cursor: pointer;
+        z-index: -2;
+        bottom: 0;
+        right: 0;
+        position: absolute;
+    }
+
+
+    .intro {
+        width: 100%;
+    }
+
+    .image {
+        /* content: url(/images/image-intro-mobile.jpg); */
+        width: 347px;
+        height: 450px;
+        position: relative;
+    }
+
+    .mobile-intro-image {
+        width: 100%;
+        height: 100%;
+    }
+
+    .intro-image {
+        opacity: 0;
+    }
+
+    .intro {
+        width: 73.5%;
+        padding-left: 0;
+        text-align: center;
+        height: 450px;
+    }
+
+    .humanizing {
+        padding: 20px;
+        margin-left: 0;
+        /* margin-top: 50px; */
+        padding-top: 0;
+        margin-top: 0;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .message {
+        width: 250px;
+        line-height: 180%;
+    }
+
+    .humanize-text {
+        width: 300px;
+        font-size: 40px;
+    }
+
+    .humanize-text::before {
+        content: 'Hum';
+        border-top: none;
+        padding-top: 0;
+        color: white;
+    }
+
+    .section-two {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 100px;
+    }
+
+    .dfferent {
+        text-align: center;
+    }
+
+    .different::before {
+        border-top: none;
+    }
+
+    .border {
+        border-top: 1px solid rgb(197, 197, 197);
+        width: 100px;
+    }
+
+    .infos {
+        flex-direction: column;
+    }
+
+    .info {
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+    }
+
+    .info-icon {
+        max-height: 40%;
+        max-width: 25%;
+    }
+
+    .info-label {
+        margin-bottom: 0;
+    }
+
+    .info-text {
+        text-align: center;
+        width: 262px;
+    }
+
+    .find-out-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .find-out {
+        text-align: center;
+        width: 200px;
+    }
+
+    .section-three {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        width: 70.5%;
+        margin-top: 100px;
+        padding: 0;
+        padding-bottom: 30px;
+    }
+
+    .left-side-bottom {
+        margin-bottom: 30px;
+    }
+
+    footer {
+        flex-direction: column;
+        /* justify-content: center; */
+        align-items: center;
+        width: 73.5%;
+        margin: 0;
+        background-color: #fff;
+        margin-bottom: 50px;
+    }
+
+    .links {
+        width: 100px;
+        text-align: center;
+    } 
+}
+
+@media (min-width: 1000px) {
+    .image {
+        display: none;
+    }    
+
+    body {
+        flex-direction: column;
+        /* background-color: lightblue; */
+    }
+
+    .right-side {
+        display: none;
+    }
+
+    .intro {
+        width: 100%;
+    }
+}

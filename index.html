@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="styles/index.css">
   <link rel="stylesheet" href="styles/patterns.css">
   <link rel="stylesheet" href="styles/hovers.css">
+  <link rel="stylesheet" href="styles/mobile.css">
 
   <title>Frontend Mentor | Insure landing page</title>
 
@@ -25,14 +26,29 @@
 				<img src="images/logo.svg" alt="logo" class="logo">
 			</div>
 
-			<nav class="right-side">
+			<nav class="right-side-container">
 				<p class="how-we-work nav-link">HOW WE WORK</p>
 				<p class="blog nav-link">BLOG</p>
 				<p class="account nav-link">ACCOUNT</p>
 
 				<button class="view-plan">VIEW PLANS</button>
 			</nav>
+			<div class="right-side">
+				<img src="images/icon-hamburger.svg" class="menu" alt="">
+				<img src="images/icon-close.svg" class="close" alt="">
+			</div>
 		</header>
+
+		<div class="image">
+			<img src="images/image-intro-mobile.jpg" class="mobile-intro-image">
+			<div class="mobile-nav">
+				<p class="how-we-work mobile-nav-link">HOW WE WORK</p>
+				<p class="blog mobile-nav-link">BLOG</p>
+				<p class="account mobile-nav-link">ACCOUNT</p>
+				<button class="view-plan-mobile">VIEW PLANS</button>
+				<img src="images/bg-pattern-mobile-nav.svg" class="mobile-nav-pattern">
+			</div>
+		</div>
 
 		<section class="intro">
 			<div class="humanizing">
@@ -48,12 +64,13 @@
 			</div>
 
 			<img src="images/image-intro-desktop.jpg" class="intro-image" alt="intro-image">
-			<img src="images/bg-pattern-intro-right-desktop.svg" alt="intro-right-pattern" class="intro-right-pattern">
-			<img src="images/bg-pattern-intro-left-desktop.svg" alt="intro-left-pattern" class="intro-left-pattern">
+
+			<div class="div"></div>
 		</section>
 
 
 		<section class="section-two">
+			<span class="border"></span>
 			<h1 class="different">different</h1>
 
 			<div class="infos">
@@ -81,9 +98,9 @@
 			</div>
 
 			<div class="find-out-container">
-				<img src="images/bg-pattern-how-we-work-desktop.svg" alt="" class="find-out-pattern">
 				<h1 class="find-out">Find out more <br> about how we work</h1>
 
+				<div class="find-out-pattern-container"></div>
 				<button class="how-we-work-button">HOW WE WORK</button>
 			</div>
 		</section>
@@ -91,7 +108,7 @@
 
 		<section class="section-three">
 			<div class="left-side-bottom">
-				<img src="images/bg-pattern-footer-desktop.svg" alt="" class="footer-pattern">
+				<!-- <img src="images/bg-pattern-footer-desktop.svg" alt="" class="footer-pattern"> -->
 				<img src="images/logo.svg" alt="logo" class="bottom-logo">
 			</div>
 
@@ -135,40 +152,14 @@
 				<p class="link-label">LICENSES</p>
 			</div>
 
-		</footer>
-		<!-- How we work
+		</footer> 
 
-		Our company
-
-		How we work
-		Why Insure?
-		View plans
-		Reviews
-
-		Help me
-
-		FAQ
-		Terms of use
-		Privacy policy
-		Cookies
-
-		Contact
-
-		Sales
-		Support
-		Live chat
-
-		Others
-
-		Careers
-		Press
-		Licenses -->
-
-		
 		<!-- <div class="attribution">
 			Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
 			Coded by <a href="#">Your Name Here</a>.
 		</div> -->
 	</main>
+
+	<script src="index.js"></script>
 </body>
 </html>
